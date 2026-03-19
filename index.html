@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZenBar Oasis</title>
+
+    <!-- style link  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- boxIcons link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+      />
+
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- nav bar open  -->
+    <header>
+      <ul class="navbar">
+        <li><a href="#home" class="active">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#address">ADDRESS</a></li>
+        <li><a href="#booking">BOOKING</a></li>
+      </ul>
+    </header>
+    <!-- nav bar close  -->
+
+    <!-- cover start  -->
+    <section class="home" id="home">
+      <div class="container">
+        <img src="./images/p2.jpg" alt="Cover Image" />
+        <div class="home-text">
+          <h1>ZenBar Oasis</h1>
+          <a href="#">View More</a>
+        </div>
+      </div>
+      <div class="booking-box" id="booking">
+        <div class="booking">
+          <select
+            name="customer-count"
+            id="customer-count"
+            class="booking-info"
+          >
+            <option value="single">Single</option>
+            <option value="">Couple</option>
+            <option value="">Family</option>
+          </select>
+          <input type="date" class="booking-info" />
+          <input type="time" class="booking-info" />
+          <button class="booking-info">Book Now</button>
+        </div>
+        <marquee behavior="" direction="left">
+          <span>Booking's available here...</span>
+        </marquee>
+      </div>
+    </section>
+    <!-- cover end  -->
+
+    <!-- content section start  -->
+    <section class="content" id="about">
+      <div class="content-box">
+        <h4>~ ~ ~ Our selection ~ ~ ~</h4>
+        <h3>Food</h3>
+        <p class="food">
+          Embark on a culinary journey with our diverse menu featuring
+          locally-sourced, high-quality ingredients and innovative
+          presentations. Experience a symphony of flavors in an exquisite
+          ambiance, where culinary excellence and unmatched hospitality await
+          discerning food enthusiasts.
+        </p>
+      </div>
+      <img src="./images/p5.jpg" alt="Content Image" />
+      <div class="content-box">
+        <h4>~ ~ ~ Our Choice ~ ~ ~</h4>
+        <h3>Drink</h3>
+        <p class="drink">
+          Explore the artistry of our beverages at the heart of our restaurant,
+          where every sip reflects our commitment to quality. From handcrafted
+          cocktails to premium wines, our thoughtfully curated drink menu
+          complements the flavors of our cuisine. Cheers to a memorable dining
+          experience where quality and creativity converge in a symphony for
+          your senses.
+        </p>
+      </div>
+    </section>
+    <!-- content section end  -->
+
+    <!-- opeing section start -->
+    <section class="opening">
+      <div class="opening-sense">
+        <img src="./images/p14.jpg" alt="Opening Sense">
+        <div class="opening-text">
+          <span>Opening Senses...</span>
+        </div>
+      </div>
+    </section>
+    <!-- opening section end  -->
+
+    <!-- shop product start  -->
+    <section class="shop-product">
+      <div class="shop-product-content">
+        <span>Featured items</span>
+        <h3>~ ~ ~ Signature Cocktails ~ ~ ~</h3>
+        <p>Unveil the magic of effortless elegance with our signature product – where style meets substance in every stitch, a timeless treasure that speaks volumes without saying a word.</p>
+      </div>
+    </section>
+    <div class="product-container">
+      <!-- Product 1  -->
+      <div class="product">
+        <div class="product-img">
+          <img src="./images/Negroni.png" alt="Negroni Image">
+        </div>
+        <h3>Negroni</h3>
+        <div class="rating">
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <span>$25</span>
+      </div>
+      <!-- Product 2  -->
+      <div class="product">
+        <div class="product-img">
+          <img src="./images/daiquiri.jpg" alt="Daiquiri Image">
+        </div>
+        <h3>Classic Daiquiri</h3>
+        <div class="rating">
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <span>$13</span>
+      </div>
+      <!-- Product 3  -->
+      <div class="product">
+        <div class="product-img">
+          <img src="./images/dirty-martini.jpg" alt="Dry Martini Image">
+        </div>
+        <h3>Dry Martini</h3>
+        <div class="rating">
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+        </div>
+        <span>$20</span>
+      </div>
+      <!-- Product 4  -->
+      <div class="product">
+        <div class="product-img">
+          <img src="./images/old-fashioned.jpg" alt="Old Fashioned Image">
+        </div>
+        <h3>Old Fashioned</h3>
+        <div class="rating">
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <span>$15</span>
+      </div>
+      <!-- Product 5  -->
+      <div class="product">
+        <div class="product-img">
+          <img src="./images/original-margarita.webp" alt="Old Fashioned Image">
+        </div>
+        <h3>Margarita</h3>
+        <div class="rating">
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <span>$17</span>
+      </div>
+      <!-- Product 6  -->
+      <div class="product">
+        <div class="product-img">
+          <img src="./images/espresso-martini.jpg" alt="Old Fashioned Image">
+        </div>
+        <h3>Espresso Martini</h3>
+        <div class="rating">
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+        </div>
+        <span>$23</span>
+      </div>
+      <!-- Product 7  -->
+      <div class="product">
+        <div class="product-img">
+          <img src="./images/Whisky Sour.jpg" alt="Old Fashioned Image">
+        </div>
+        <h3>Whiskey Sour</h3>
+        <div class="rating">
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <span>$21</span>
+      </div>
+      <!-- Product 8  -->
+      <div class="product">
+        <div class="product-img">
+          <img src="./images/manhattan.jpg" alt="Old Fashioned Image">
+        </div>
+        <h3>Manhattan</h3>
+        <div class="rating">
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star checked"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <span>$15</span>
+      </div>
+    </div>
+    <!-- shop product end  -->
+    
+    <!-- menu start -->
+    <section class="menu" id="menu">
+      <div class="menu-list">
+        <img src="./images/p13.jpg" alt="Menu Image">
+        
+        <div class="menu-column">
+          <!-- card 1 -->
+          <div class="card">
+            <h4>CLASSIC TASTES</h4>
+            <h3>~ ~ ~ Cocktails ~ ~ ~</h3>
+           
+              <div class="name">
+                <span>COCO SPICE</span>
+                <span>$32</span>
+              </div>
+              <span class="portion">Captain Morgan spiced rum, pineapple</span>
+           
+              <div class="name">
+                <span>TEQUILA SUNRISE</span>
+                <span>$25</span>
+              </div>
+              <span class="portion">Tequila orange juice, grenodine</span>
+            
+              <div class="name">
+                <span>CUBA LIBRE</span>
+                <span>$38</span>
+              </div>
+              <span class="portion">Dork rum, fresh lime, Coke</span>
+            
+              <div class="name">
+                <span>CUBA LIBRE</span>
+                <span>$38</span>
+              </div>
+              <span class="portion">Dork rum, fresh lime, Coke</span>
+          
+          </div>
+          <!-- card 2  -->
+          <div class="card">
+            <h4>Red & Whites</h4>
+            <h3>~ ~ ~ WINE ~ ~</h3>
+            
+            <div>
+              <div class="name">
+                <span>CHARDONNAY</span>
+                <span>$326</span>
+              </div>
+              <span class="portion">Alexander Valley</span>
+            </div>
+
+            <div>
+              <div class="name">
+                <span>MOSCATO </span>
+                <span>$199</span>
+              </div>
+              <span class="portion">Chale</span>
+            </div>
+
+            <div>
+              <div class="name">
+                <span>MICHNELLE</span>
+                <span>$163</span>
+              </div>
+              <span class="portion">Santa Lucia Highlands</span>
+            </div>
+
+            <div>
+              <div class="name">
+                <span>RIESLING</span>
+                <span>$163</span>
+              </div>
+              <span class="portion">Santa Lucia Highlands</span>
+            </div>
+          </div>
+          <!-- card 3  -->
+          <div class="card">
+            <h4>Craft & Lager</h4>
+            <h3>~ ~ ~ BEER ~ ~ ~</h3>
+            <div>
+              <div class="name">
+                <span>YUENGLING</span>
+                <span>$9</span>
+              </div>
+              <span class="portion">Pole Lager</span>
+            </div>
+            <div>
+              <div class="name">
+                <span>SOUTHERN</span>
+                <span>$32</span>
+              </div>
+              <span class="portion">CStrong Pole Lager</span>
+            </div>
+            <div>
+              <div class="name">
+                <span>GREEN FLASH</span>
+                <span>$9</span>
+              </div>
+              <span class="portion">Pole Lager</span>
+            </div>
+            <div>
+              <div class="name">
+                <span>RANCH IMPEIRAL</span>
+                <span>$7</span>
+              </div>
+              <span class="portion">Imperial</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="#">View More</a>
+        </div>
+      </div>
+    </section>
+    <!-- menu end  -->
+    <section>
+     <div class="visit-us" id="address">
+        <div class="contact-box">
+          <h4>ZenBar Oasis</h4>
+          <h3>~ ~ ~ Visit Us ~ ~ ~</h3><br>
+          <p>71 Modison Ave 10013 New York, 914-308701, 914 329201</p>
+          <span>reservezenbaroasis@gmail.com, zembaroasisoffice@gmail.com</span><br>
+          <h3>Opeing hours</h3>
+          <span>Mon - Thu 05:00pm - 03am</span>
+          <span>Fir - Sun 3:00am - 03am</span><br>
+          <div class="visit-us-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>         
+          </div>
+        </div>
+        <img src="./images/p9.jpg" alt="">
+      </div>
+     </div>
+    </section>
+    <footer>
+      <div class="address">
+        <span>ZenBar Oasis. 71 Modison Ave 10013 New York, 914-308701, 914 329201, reservezenbaroasis@gmail.com</span>
+        <span>Open 05:00pm - 03am</span>
+      </div>
+      <ul class="footer-link">
+        <li><a href="#" class="active">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+        
+      </ul>
+    </footer>
+
+  </body>
+</html>
