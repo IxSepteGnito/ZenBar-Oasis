@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Permanent+Marker&family=Preahvihear&family=Rubik+Doodle+Shadow&family=Tenor+Sans&family=Whisper&display=swap');
 
-/* ================= GLOBAL ================= */
+/* GLOBAL */
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ img {
     height: auto;
 }
 
-/* ================= HEADER ================= */
+/* HEADER */
 header {
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@ header {
     width: 100%;
 }
 
-/* ================= HOME ================= */
+/* HOME */
 .container {
     position: relative;
     min-height: 440px;
@@ -113,7 +113,7 @@ header {
     background: var(--highlight-color);
 }
 
-/* ================= BOOKING ================= */
+/* BOOKING */
 .booking-box {
     max-width: 900px;
     margin: auto;
@@ -133,7 +133,7 @@ header {
     min-width: 150px;
 }
 
-/* ================= CONTENT ================= */
+/* CONTENT */
 .content {
     display: flex;
     gap: 3rem;
@@ -172,7 +172,7 @@ header {
     color: var(--highlight-color);
 }
 
-/* ================= OPENING ================= */
+/* OPENING */
 .opening-sense {
     position: relative;
     min-height: 400px;
@@ -194,7 +194,7 @@ header {
     font-family: 'Whisper', cursive;
 }
 
-/* ================= SHOP PRODUCT ================= */
+/* SHOP PRODUCT */
 .shop-product {
     display: flex;
     justify-content: center;
@@ -224,7 +224,6 @@ header {
     font-size: 1.3rem;
 }
 
-/* ================= PREMIUM PRODUCTS ================= */
 .product-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -274,7 +273,7 @@ header {
     font-weight: bold;
 }
 
-/* ================= MENU ================= */
+/* MENU */
 .menu-list {
     position: relative;
     width: 100%;
@@ -349,7 +348,7 @@ header {
     justify-content: space-between;
 }
 
-/* ================= VISIT US ================= */
+/* VISIT US */
 .visit-us {
     position: relative;
     min-height: 500px;
@@ -399,7 +398,7 @@ header {
     margin-bottom: 10px;
 }
 
-/* ================= FOOTER ================= */
+/* FOOTER */
 footer {
     margin-top: 60px;
     padding: 30px 20px;
@@ -484,7 +483,7 @@ footer {
     100%{ background-position:200%; }
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE */
 @media (max-width: 1200px) {
     .product-container { grid-template-columns: repeat(3,1fr); }
 }
